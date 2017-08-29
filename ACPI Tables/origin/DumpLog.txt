@@ -1,0 +1,125 @@
+3:208  1:761  Found BIOS RSDP at F0000
+3:208  0:000  Printing ACPI tables from RSDP F0000 ...
+3:208  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:208  0:000    (Xsdt: DDE20088, Rsdt: DDE20028)
+3:208  0:000    DDE20088: 'XSDT', 'A M I', Rev: 1, Len: 140
+3:208  0:000    DDE20028: 'RSDT', 'A M I', Rev: 1, Len: 88
+3:208  0:000    Tables in Xsdt: 13
+3:208  0:000    0. DDE2F190: 'FACP', 'A M I', Rev: 5, Len: 268
+3:208  0:000        (Dsdt: DDE201A8, Facs: DDE50F80, XDsdt: DDE201A8, XFacs: 0)
+3:208  0:000        DDE201A8: 'DSDT', 'A M I', Rev: 2, Len: 61413
+3:209  0:000        DDE50F80: 'FACS', Ver: 2, Len: 64
+3:209  0:000    1. DDE2F2A0: 'APIC', 'A M I', Rev: 3, Len: 114
+3:209  0:000    2. DDE2F318: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:209  0:000    3. DDE2F360: 'ASF!', ' HCG', Rev: 32, Len: 165
+3:209  0:000    4. DDE2F408: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:209  0:000    5. DDE2F948: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:209  0:000    6. DDE30420: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:209  0:000    7. DDE30460: 'HPET', 'A M I', Rev: 1, Len: 56
+3:209  0:000    8. DDE30498: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:209  0:000    9. DDE30808: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13608
+3:209  0:000    10. DDE33D30: 'DMAR', 'HSW ', Rev: 1, Len: 128
+3:209  0:000    11. DDE33DB0: 'SSDT', 'IsctTabl', Rev: 1, Len: 2598
+3:209  0:000    12. DDE347D8: 'BGRT', 'A M I', Rev: 0, Len: 56
+3:209  0:000    Tables in Rsdt: 13
+3:209  0:000    0. DDE20120: 'FACP', 'A M I', Rev: 2, Len: 132
+3:209  0:000        (Dsdt: DDE201A8, Facs: DDE50F40)
+3:209  0:000        DDE201A8: 'DSDT', 'A M I', Rev: 2, Len: 61413
+3:210  0:000        DDE50F40: 'FACS', Ver: 0, Len: 64
+3:210  0:000    1. DDE2F2A0: 'APIC', 'A M I', Rev: 3, Len: 114
+3:210  0:000    2. DDE2F318: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:210  0:000    3. DDE2F360: 'ASF!', ' HCG', Rev: 32, Len: 165
+3:210  0:000    4. DDE2F408: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:210  0:000    5. DDE2F948: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:210  0:000    6. DDE30420: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:210  0:000    7. DDE30460: 'HPET', 'A M I', Rev: 1, Len: 56
+3:210  0:000    8. DDE30498: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:210  0:000    9. DDE30808: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13608
+3:210  0:000    10. DDE33D30: 'DMAR', 'HSW ', Rev: 1, Len: 128
+3:210  0:000    11. DDE33DB0: 'SSDT', 'IsctTabl', Rev: 1, Len: 2598
+3:210  0:000    12. DDE347D8: 'BGRT', 'A M I', Rev: 0, Len: 56
+3:210  0:000  Found UEFI Acpi 2.0 RSDP at DDE20000
+3:210  0:000  Saving ACPI tables from RSDP DDE20000 to EFI\CLOVER\ACPI\origin ...
+3:210  0:000   DDE20000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+3:213  0:003    (Xsdt: DDE20088, Rsdt: DDE20028)
+3:213  0:000    DDE20088: 'XSDT', 'A M I', Rev: 1, Len: 140 -> XSDT.aml
+3:218  0:004    DDE20028: 'RSDT', 'A M I', Rev: 1, Len: 88 -> RSDT.aml
+3:221  0:003    Tables in Xsdt: 13
+3:221  0:000    0. DDE2F190: 'FACP', 'A M I', Rev: 5, Len: 268 -> FACP.aml
+3:224  0:003        (Dsdt: DDE201A8, Facs: DDE50F80, XDsdt: DDE201A8, XFacs: 0)
+3:224  0:000        DDE201A8: 'DSDT', 'A M I', Rev: 2, Len: 61413 -> DSDT.aml
+3:228  0:004        DDE50F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+3:231  0:002    1. DDE2F2A0: 'APIC', 'A M I', Rev: 3, Len: 114 -> APIC.aml
+3:234  0:003    2. DDE2F318: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+3:239  0:004    3. DDE2F360: 'ASF!', ' HCG', Rev: 32, Len: 165 -> ASF!.aml
+3:242  0:003    4. DDE2F408: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-0.aml
+3:246  0:003    5. DDE2F948: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+3:246  0:000        * DC27BA98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00       * DDCC0618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-2x.aml
+3:249  0:002        * DDCC0C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-3x.aml
+3:251  0:002        * DDCBFD98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-4x.aml
+3:254  0:002   -> SSDT-1.aml
+3:257  0:002    6. DDE30420: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+3:259  0:002    7. DDE30460: 'HPET', 'A M I', Rev: 1, Len: 56 -> HPET.aml
+3:264  0:004    8. DDE30498: 'SSDT', 'SataTabl', Rev: 1, Len: 877 -> SSDT-5.aml
+3:267  0:003    9. DDE30808: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13608 -> SSDT-6.aml
+3:270  0:002    10. DDE33D30: 'DMAR', 'HSW ', Rev: 1, Len: 128 -> DMAR.aml
+3:272  0:002    11. DDE33DB0: 'SSDT', 'IsctTabl', Rev: 1, Len: 2598 -> SSDT-7.aml
+3:276  0:004    12. DDE347D8: 'BGRT', 'A M I', Rev: 0, Len: 56 -> BGRT.aml
+3:279  0:002    Tables in Rsdt: 13
+3:279  0:000    0. DDE20120: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+3:283  0:003        (Dsdt: DDE201A8, Facs: DDE50F40)
+3:283  0:000        DDE201A8: 'DSDT', 'A M I', Rev: 2, Len: 61413
+3:284  0:000        DDE50F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+3:286  0:002    1. DDE2F2A0: 'APIC', 'A M I', Rev: 3, Len: 114
+3:286  0:000    2. DDE2F318: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:286  0:000    3. DDE2F360: 'ASF!', ' HCG', Rev: 32, Len: 165
+3:286  0:000    4. DDE2F408: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:286  0:000    5. DDE2F948: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:286  0:000    6. DDE30420: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:286  0:000    7. DDE30460: 'HPET', 'A M I', Rev: 1, Len: 56
+3:286  0:000    8. DDE30498: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:286  0:000    9. DDE30808: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13608
+3:286  0:000    10. DDE33D30: 'DMAR', 'HSW ', Rev: 1, Len: 128
+3:286  0:000    11. DDE33DB0: 'SSDT', 'IsctTabl', Rev: 1, Len: 2598
+3:286  0:000    12. DDE347D8: 'BGRT', 'A M I', Rev: 0, Len: 56
+3:286  0:000  Found UEFI Acpi 1.0 RSDP at DDE20000
+3:286  0:000  Printing ACPI tables from RSDP DDE20000 ...
+3:286  0:000   DDE20000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+3:286  0:000    (Xsdt: DDE20088, Rsdt: DDE20028)
+3:286  0:000    DDE20088: 'XSDT', 'A M I', Rev: 1, Len: 140
+3:286  0:000    DDE20028: 'RSDT', 'A M I', Rev: 1, Len: 88
+3:286  0:000    Tables in Xsdt: 13
+3:286  0:000    0. DDE2F190: 'FACP', 'A M I', Rev: 5, Len: 268
+3:286  0:000        (Dsdt: DDE201A8, Facs: DDE50F80, XDsdt: DDE201A8, XFacs: 0)
+3:286  0:000        DDE201A8: 'DSDT', 'A M I', Rev: 2, Len: 61413
+3:287  0:000        DDE50F80: 'FACS', Ver: 2, Len: 64
+3:287  0:000    1. DDE2F2A0: 'APIC', 'A M I', Rev: 3, Len: 114
+3:287  0:000    2. DDE2F318: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:287  0:000    3. DDE2F360: 'ASF!', ' HCG', Rev: 32, Len: 165
+3:287  0:000    4. DDE2F408: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:287  0:000    5. DDE2F948: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:287  0:000    6. DDE30420: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:287  0:000    7. DDE30460: 'HPET', 'A M I', Rev: 1, Len: 56
+3:287  0:000    8. DDE30498: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:287  0:000    9. DDE30808: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13608
+3:287  0:000    10. DDE33D30: 'DMAR', 'HSW ', Rev: 1, Len: 128
+3:287  0:000    11. DDE33DB0: 'SSDT', 'IsctTabl', Rev: 1, Len: 2598
+3:287  0:000    12. DDE347D8: 'BGRT', 'A M I', Rev: 0, Len: 56
+3:287  0:000    Tables in Rsdt: 13
+3:287  0:000    0. DDE20120: 'FACP', 'A M I', Rev: 2, Len: 132
+3:287  0:000        (Dsdt: DDE201A8, Facs: DDE50F40)
+3:287  0:000        DDE201A8: 'DSDT', 'A M I', Rev: 2, Len: 61413
+3:288  0:001        DDE50F40: 'FACS', Ver: 0, Len: 64
+3:288  0:000    1. DDE2F2A0: 'APIC', 'A M I', Rev: 3, Len: 114
+3:288  0:000    2. DDE2F318: 'FPDT', 'A M I', Rev: 1, Len: 68
+3:288  0:000    3. DDE2F360: 'ASF!', ' HCG', Rev: 32, Len: 165
+3:288  0:000    4. DDE2F408: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+3:288  0:000    5. DDE2F948: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+3:288  0:000    6. DDE30420: 'MCFG', 'A M I', Rev: 1, Len: 60
+3:288  0:000    7. DDE30460: 'HPET', 'A M I', Rev: 1, Len: 56
+3:288  0:000    8. DDE30498: 'SSDT', 'SataTabl', Rev: 1, Len: 877
+3:288  0:000    9. DDE30808: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13608
+3:288  0:000    10. DDE33D30: 'DMAR', 'HSW ', Rev: 1, Len: 128
+3:288  0:000    11. DDE33DB0: 'SSDT', 'IsctTabl', Rev: 1, Len: 2598
+3:288  0:000    12. DDE347D8: 'BGRT', 'A M I', Rev: 0, Len: 56
